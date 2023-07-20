@@ -23,6 +23,7 @@
 
 
 
+
 }
 
 .nav-name {
@@ -122,11 +123,11 @@
 }
 
 
-
+/* 
 .header-image img {
     height: 446px;
     width: 600px;
-}
+} */
 
 
 
@@ -193,6 +194,7 @@
 
 .gamer-title h3 {
     font-size: 2rem;
+    color: #534C64;
 }
 
 .gamer-image img {
@@ -208,6 +210,9 @@
     -webkit-text-fill-color: transparent;
 }
 
+.video-title {
+    text-align: center;
+}
 
 .video-container {
     display: flex;
@@ -286,13 +291,48 @@
 
 .background i {
     padding-top: 100px;
-    visibility: hidden;
 
 }
+
+.background2 i {
+    padding-top: 100px;
+
+}
+
+.background3 i {
+    padding-top: 100px;
+
+}
+
+.background4 i {
+    padding-top: 100px;
+
+}
+
 
 .background:hover {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
     visibility: visible;
+}
+
+
+
+
+.background4:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+    visibility: visible;
+}
+
+
+.background2:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+    visibility: visible;
+}
+
+.background3:hover {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+    visibility: visible;
+
 
 
 }
@@ -469,6 +509,7 @@
         flex-direction: column-reverse;
         padding: 0;
         align-items: flex-start;
+        margin-top: 80px;
     }
 
     .gamer-container {
@@ -479,6 +520,7 @@
     .gamer-title {
         text-align: left;
     }
+
 
     .video-container {
         flex-direction: column;
@@ -494,5 +536,16 @@
 
     .career-container {
         flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .career-image img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .header-image img {
+        height: 300px;
+        width: 500px;
     }
 }
